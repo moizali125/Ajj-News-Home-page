@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100;0,8..144,200;0,8..144,300;1,8..144,100;1,8..144,200;1,8..144,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto+Serif:ital,opsz,wght@0,8..144,100;0,8..144,200;0,8..144,300;1,8..144,100;1,8..144,200;1,8..144,300&display=swap');
+
+@font-face {
+    font-family: Nafees;
+    src: url(./../Nafees\ Nastaleeq\ v1.02\(VOLT\ project\).ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+/* Navbar First Column  */
+.nav-column-1 {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    /* border: 2px solid black; */
+    text-align: center;
+    position: relative;
+    left: 10vw;
+}
+
+/* First Column Elements  */
+.nav-column-1>a {
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto Serif", 'Times New Roman', Times, serif, sans-serif;
+    font-style: italic;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    /* border-bottom: 1px solid rgba(71, 163, 158); */
+}
+
+/* Special Case Anchor  */
+.nav-column-1>.wl-anchor {
+    color: #D7752B;
+    font-family: "Roboto Serif", 'Times New Roman', Times, serif, sans-serif;
+}
+
+/*Navbar Second Column  */
+.nav-logo {
+    width: 20vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    padding: 1%;
+    margin-top: 0.3%;
+}
+
+/* Logo Image  */
+.logo-img {
+    width: 28%;
+    /* height: 40%; */
+}
+
+.nav-logo>p {
+    font-family: "Roboto Serif", 'Times New Roman', Times, serif, sans-serif;
+    font-size: 0.7rem;
+    font-weight: 400;
+    margin-top: 2%;
+}
+
+/* Third Column  */
+.nav-column-2 {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    /* border:2px solid black; */
+    position: relative;
+    right: 10vw;
+}
+
+.nav-column-2>a{
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto Serif", 'Times New Roman', Times, serif, sans-serif;
+    font-style: italic;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    /* border-bottom: 1px solid rgba(71, 163, 158); */   
+}
+
+/* Special Case Anchor  */
+.nav-column-2>.urdu-anchor{
+    color: #D7752B;
+    font-family: "Roboto Serif", 'Times New Roman', Times, serif, sans-serif;
+}
+

@@ -1,0 +1,154 @@
+/* Main Section  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100;0,8..144,200;0,8..144,300;1,8..144,100;1,8..144,200;1,8..144,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto+Serif:ital,opsz,wght@0,8..144,100;0,8..144,200;0,8..144,300;1,8..144,100;1,8..144,200;1,8..144,300&display=swap');
+
+@font-face {
+    font-family: Nafees;
+    src: url(./../Nafees\ Nastaleeq\ v1.02\(VOLT\ project\).ttf);
+}
+/* ------------------------------------------------- */
+/* Page Section Main-5  */
+.page-sec-main-5 {
+    position: relative;
+    margin-top: 0.5%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    padding: 1%;
+    border-bottom: 2px solid black;
+}
+
+/* Opinion Sec  */
+.opinion-sec {
+    margin-left: 6%;
+    width: 48%;
+    padding: 0.3%;
+    border-right: 1px dashed rgb(196, 195, 195);
+}
+
+/* Opinion Section Elements Div  */
+.opinion-sec-elements {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    /* justify-content: space-evenly; */
+}
+
+.opinion-sec-element-1 {
+    width: 100%;
+    height: fit-content;
+}
+
+/* Opinion Section Heading  */
+.opinion-sec-head {
+    color: black;
+    font-family: "Fjalla One", "Roboto Serif", 'Times New Roman', Times, serif, sans-serif;
+    font-size: 2.2rem;
+    font-weight: 100;
+
+}
+
+
+/* Opinion Sec Img  */
+.opinion-sec-img {
+    width: 90%;
+    /* padding: 1%; */
+
+}
+
+/* Opinion anchor  */
+.opinion-anchor {
+    text-decoration: none;
+}
+
+.opinion-sec-para-1 {
+    color: black;
+    font-family: "Fjalla One", "Roboto Serif", 'Times New Roman', Times, serif, sans-serif;
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 100;
+    width: 60%;
+    text-align: center;
+    margin-left: 15%;
+}
+
+.opinion-sec-para-1:hover {
+    text-decoration: underline;
+    text-decoration-color: #02BB9B;
+}
+
+/* Opinion Section Para-2  */
+.opinion-sec-para-2 {
+    font-family: "Roboto Serif", 'Times New Roman', Times, serif, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 100;
+    margin-left: 5%;
+}
+
+/* Technlogy Section  */
+.tech-sec {
+    margin-left: 1%;
+    width: 48%;
+    padding: 0.3%;
+}
+
+/* Tech Section Elements Div  */
+.tech-sec-elements {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    /* justify-content: space-evenly; */
+}
+
+.tech-sec-element-1 {
+    width: 100%;
+    height: fit-content;
+}
+
+/* Tech Section Heading  */
+.tech-sec-head {
+    color: black;
+    font-family: "Fjalla One", "Roboto Serif", 'Times New Roman', Times, serif, sans-serif;
+    font-size: 2.2rem;
+    font-weight: 100;
+
+}
+
+
+/* Tech Sec Img  */
+.tech-sec-img {
+    width: 90%;
+    /* padding: 1%; */
+
+}
+
+/* Tech anchor  */
+.tech-anchor {
+    text-decoration: none;
+}
+
+.tech-sec-para-1 {
+    color: black;
+    font-family: "Fjalla One", "Roboto Serif", 'Times New Roman', Times, serif, sans-serif;
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 100;
+    width: 60%;
+    text-align: center;
+    margin-left: 15%;
+}
+
+.tech-sec-para-1:hover {
+    text-decoration: underline;
+    text-decoration-color: #02BB9B;
+}
+
+/* tech Section Para-2  */
+.tech-sec-para-2 {
+    font-family: "Roboto Serif", 'Times New Roman', Times, serif, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 100;
+    margin-left: 35%;
+}

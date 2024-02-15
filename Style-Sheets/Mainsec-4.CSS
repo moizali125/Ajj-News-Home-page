@@ -1,0 +1,189 @@
+/* Main Section  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100;0,8..144,200;0,8..144,300;1,8..144,100;1,8..144,200;1,8..144,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto+Serif:ital,opsz,wght@0,8..144,100;0,8..144,200;0,8..144,300;1,8..144,100;1,8..144,200;1,8..144,300&display=swap');
+
+@font-face {
+    font-family: Nafees;
+    src: url(./../Nafees\ Nastaleeq\ v1.02\(VOLT\ project\).ttf);
+}
+/* ------------------------------------------------- */
+
+/* Main Sectionb 4  */
+.page-sec-main-4 {
+    position: relative;
+    margin-top: 0.1%;
+    /* padding: 1%; */
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    /* padding: 1%; */
+    padding: 1%;
+    border-top: 1px solid rgb(114, 114, 114);
+    border-bottom: 1px solid rgb(114, 114, 114);
+}
+
+/* Sports Section  */
+.sports-sec {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 28%;
+    text-indent: 2px;
+    margin-left: 7%;
+    display: block;
+    /* padding-bottom: 0%; */
+}
+
+.sports-sec-head {
+    color: black;
+    font-family: "Fjalla One", "Roboto Serif", 'Times New Roman', Times, serif, sans-serif;
+    font-size: 2.2rem;
+    font-weight: 100;
+}
+
+/* Sports Section Element 1  */
+.sports-sec-element-1 {
+    width: fit-content;
+    height: 28vh;
+    border-bottom: 1px dashed rgb(196, 195, 195);
+}
+
+/* Main Section Para1  */
+/* Common in ALL  */
+/* ----------------------------------------------------  */
+.main-sec3-para1 {
+    margin-top: 2%;
+    padding: 0.1%;
+    font-size: 0.8rem;
+    font-family: "Fjalla One", "Roboto Serif", 'Times New Roman', Times, serif, sans-serif;
+    color: #02BB9B;
+}
+
+/* Main Section Para2  */
+.main-sec3-para2 {
+    width: 45%;
+    margin-top: 7%;
+    /* padding:0.1%; */
+    font-size: 1.1rem;
+    font-family: "Roboto Serif", 'Times New Roman', Times, serif, sans-serif;
+    color: black;
+    position: relative;
+    top: -18vh;
+}
+
+/* ----------------------------------------------------  */
+
+/* Sports Section Anchor  */
+.sports-sec-anchor {
+    /* text-align: center; */
+    text-decoration: none;
+    /* padding: 1%; */
+}
+
+/* Sports Section Head1  */
+/* Common in ALL  */
+/* ----------------------------------------------------  */
+.main-sec3-head1 {
+    display: inline-block;
+    text-align: justify;
+    color: black;
+    width: 80%;
+    font-size: 1.3rem;
+    font-family: "Fjalla One", "Roboto Serif", 'Times New Roman', Times, serif, sans-serif;
+    font-weight: 100;
+}
+
+.main-sec3-head1:hover {
+    text-decoration: underline;
+    text-decoration-color: #02BB9B;
+}
+
+/* ----------------------------------------------------- */
+
+/* Sports Section Images  */
+.sports-sec-img {
+    width: 45%;
+    padding: 0.2%;
+    margin-left: 46%;
+}
+
+
+/* Business & Economy Section  */
+.BE-sec {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 28%;
+    text-indent: 2px;
+    margin-left: 3%;
+    display: block;
+    /* padding-bottom: 0%; */
+}
+
+.BE-sec-head {
+    color: black;
+    font-family: "Fjalla One", "Roboto Serif", 'Times New Roman', Times, serif, sans-serif;
+    font-size: 2.2rem;
+    font-weight: 100;
+}
+
+/* BE Section Element 1  */
+.BE-sec-element-1 {
+    width: fit-content;
+    height: 28vh;
+    border-bottom: 1px dashed rgb(196, 195, 195);
+}
+
+.BE-sec-anchor {
+    /* text-align: center; */
+    text-decoration: none;
+    /* padding: 1%; */
+}
+
+/* BE Section Images  */
+.BE-sec-img {
+    width: 45%;
+    padding: 0.2%;
+    margin-left: 46%;
+}
+
+
+/* WORLD Section  */
+.world-sec {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 28%;
+    text-indent: 2px;
+    margin-left: 3%;
+    display: block;
+    /* padding-bottom: 0%; */
+}
+
+.world-sec-head {
+    color: black;
+    font-family: "Fjalla One", "Roboto Serif", 'Times New Roman', Times, serif, sans-serif;
+    font-size: 2.2rem;
+    font-weight: 100;
+}
+
+/* World Section Element 1  */
+.world-sec-element-1 {
+    width: fit-content;
+    height: 28vh;
+    border-bottom: 1px dashed rgb(196, 195, 195);
+}
+
+.world-sec-anchor {
+    /* text-align: center; */
+    text-decoration: none;
+    /* padding: 1%; */
+}
+
+/* World Section Images  */
+.world-sec-img {
+    width: 45%;
+    padding: 0.2%;
+    margin-left: 46%;
+}

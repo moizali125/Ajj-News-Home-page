@@ -1,0 +1,190 @@
+/* Main Section  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100;0,8..144,200;0,8..144,300;1,8..144,100;1,8..144,200;1,8..144,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto+Serif:ital,opsz,wght@0,8..144,100;0,8..144,200;0,8..144,300;1,8..144,100;1,8..144,200;1,8..144,300&display=swap');
+
+@font-face {
+    font-family: Nafees;
+    src: url(./../Nafees\ Nastaleeq\ v1.02\(VOLT\ project\).ttf);
+}
+/* ------------------------------------------------- */
+
+/* Main Section 3 */
+/* Page2 Image Section  */
+.main-sec-3 {
+    padding: 1%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0%;
+    padding: 2%;    
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+    border-top: 1px solid rgb(114, 114, 114);
+    border-bottom:1px solid rgb(114, 114, 114) ;
+    margin-top: 0.1%;
+}
+.page-2-img-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    /* border: 2px solid red; */
+    justify-content: space-evenly;
+}
+.page-2-img-section-1{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+/* Page Main Section-2 Heading  */
+.page-head-2 {
+    font-family: "Fjalla One", "Roboto Serif", 'Times New Roman', Times, serif, sans-serif;
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin-left: 3%;
+}
+
+/* img1 div */
+.page2-img1 {
+    padding: 1%;
+    display: inline-block;
+    width: 22vw;
+    height: fit-content;
+    text-align: center;
+    padding-bottom: 1.5%;
+}
+
+/* img 1 */
+.page-img1 {
+    width: 100%;
+    height: 32vh;
+    padding-top: 1.5%;
+
+}
+
+.page2-img-anchor {
+    /* text-align: center; */
+    text-decoration: none;
+
+}
+
+/* para1 */
+.img-pge-para1 {
+    color: black;
+    font-family: "Fjalla One", "Roboto Serif", sans-serif, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+
+.img-pge-para1:hover {
+    text-decoration: underline;
+    text-decoration-color: #02BB9B;
+    font-size: 1.3rem;
+}
+
+/* Para2 */
+.img-pge-para2 {
+    color: black;
+    font-family: "Roboto Serif", sans-serif, 'Times New Roman', Times, serif;
+    font-size: 0.9rem;
+    font-weight: 100;
+}
+/* ------------------------------------------------------------------------------------------------------------------- */
+/* Image 2 div  */
+.page2-img2 {
+    padding: 1%;
+    display: inline-block;
+    width: 45vw;
+    height: fit-content;
+    text-align: center;
+}
+
+.page-mid-img {
+    width: 100%;
+    margin-left: 3%;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* Image 3 Div  */
+.page2-img3 {
+    padding: 1%;
+    display: inline-block;
+    width: 20vw;
+    height: fit-content;
+    text-align: center;
+    margin-left: 2.5%;
+}
+
+.page-img3 {
+    width: 100%;
+    height: 35vh;
+    padding-bottom: 1.5%;
+}
+/* ------------------------------------------------------------------------------------------------------------------------- */
+/* Image 4 Div  */
+
+.page2-img4 {
+    padding: 1%;
+    display: inline-block;
+    width: 22vw;
+    height: fit-content;
+    text-align: center;
+}
+
+.page-img4 {
+    width: 100%;
+    height: 36vh;
+    padding-bottom: 1.5%;
+}
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/*Image 5 Div  */
+.page2-img5 {
+    padding: 1%;
+    display: inline-block;
+    width: 24vw;
+    height: fit-content;
+    text-align: center;
+}
+
+.page-img5 {
+    width: 100%;
+    height: 36vh;
+    padding-bottom: 1.5%;
+}
+/* ----------------------------------------------------------------------------------------------------------------------- */
+/* Image 6 Div  */
+.page2-img6 {
+    padding: 1%;
+    display: inline-block;
+    width: 24vw;
+    height: fit-content;
+    text-align: center;
+}
+
+.page-img6 {
+    width: 100%;
+    height: 36vh;
+    padding-bottom: 1.5%;
+}
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* Image 7 Div  */
+
+.page2-img7 {
+    /* padding: 0.2%; */
+    display: inline-block;
+    width: 22vw;
+    height: fit-content;
+    text-align: center;
+    margin-top: 0.6%;
+}
+
+
+.page-img7 {
+    width: 90%;
+    height: 36vh;
+    padding-bottom: 0.5%;
+}
+

@@ -1,0 +1,90 @@
+/* Main Section  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100;0,8..144,200;0,8..144,300;1,8..144,100;1,8..144,200;1,8..144,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto+Serif:ital,opsz,wght@0,8..144,100;0,8..144,200;0,8..144,300;1,8..144,100;1,8..144,200;1,8..144,300&display=swap');
+
+@font-face {
+    font-family: Nafees;
+    src: url(./../Nafees\ Nastaleeq\ v1.02\(VOLT\ project\).ttf);
+}
+/* ------------------------------------------------- */
+/* Foooter  */
+.foot {
+    width: 100%;
+    /* border:2px solid black; */
+    margin-top: 1%;
+    height: 10vh;
+    height: fit-content;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Foot Element 1  */
+.foot-element-1 {
+    display: flex;
+    margin-left: 8%;
+    flex-direction: column;
+    width: 16vw;
+    height: fit-content;
+    text-align: center;
+}
+
+/* Socila Icons */
+.social-icons {
+    /* margin-left: 8vw; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 12vw;
+    height: fit-content;
+    /* border: 2px solid red; */
+    padding: 1%;
+    /* padding-bottom: 1%; */
+}
+
+/* Social Anchor  */
+.social-anchor {
+    text-decoration: none;
+    margin: 0%;
+    padding: 0%;
+    width: fit-content;
+    height: fit-content;
+}
+
+.social-img {
+    width:80%;
+    margin-left: 0%;
+}
+
+.foot-para {
+    display: inline-block;
+    text-align: left;
+    font-size: 0.6rem;
+    margin-left: -2vw;
+    font-family: "Roboto Serif", 'Times New Roman', Times, serif, sans-serif;
+}
+
+/* Foot Element 2  */
+.foot-element-2{
+    padding: 1%;
+    width: 60%;
+    text-align: center;
+}
+
+
+/* Foot Span Anchor  */
+.foot-span-anchor{
+    text-decoration: none;
+}
+
+.foot-span{
+    color: black;
+    font-family:"Fjalla One","Roboto Serif", 'Times New Roman', Times, serif, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 300;
+    padding-right: 0.5%;
+    padding-left: 0.5%;
+    border-right: 2px solid black;
+}

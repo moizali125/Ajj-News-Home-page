@@ -1,0 +1,240 @@
+/* Main Section  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100;0,8..144,200;0,8..144,300;1,8..144,100;1,8..144,200;1,8..144,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto+Serif:ital,opsz,wght@0,8..144,100;0,8..144,200;0,8..144,300;1,8..144,100;1,8..144,200;1,8..144,300&display=swap');
+
+@font-face {
+    font-family: Nafees;
+    src: url(./../Nafees\ Nastaleeq\ v1.02\(VOLT\ project\).ttf);
+}
+/* ------------------------------------------------- */
+/* Main Section 2 */
+.main-sec-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 100vw;
+    padding-bottom: 2%;
+    border-bottom: 1px solid rgb(157, 157, 157);
+}
+
+
+/* Main  Sec 2 Div 1 */
+.main-sec-2-aside--div1 {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 4%;
+}
+
+/* Top Stories Button  */
+.stories-button {
+    background-color: black;
+    color: #fff;
+    font-family: "Fjalla One", "Roboto Serif", 'Times New Roman', Times, serif, sans-serif;
+    font-size: 1.4rem;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    padding: 1%;
+    border-radius: 5px;
+    font-weight: 400;
+    margin: 2%;
+}
+
+/* ARTICLE 1 */
+.main-sec-2-elements {
+    padding: 1%;
+    width: 24vw;
+    height: fit-content;
+}
+
+/* Element 1  */
+.main-sec2-element1 {
+    width: fit-content;
+    height: fit-content;
+    padding: 1%;
+    /* border: 2px solid black; */
+    font-family: "Fjalla One", "Roboto Serif", sans-serif, 'Times New Roman', Times, serif;
+}
+
+/* Cell Content  */
+
+.cell-content {
+    width: fit-content;
+    height: fit-content;
+    margin-top: 3%;
+    padding-bottom: 2%;
+    border-bottom: 2px solid rgb(211, 208, 208);
+}
+
+/* Cell Content Anchor  */
+.cell-content>a {
+    text-decoration: none;
+    /* display: block; */
+}
+
+/* Paragraph In Section  */
+.paras {
+    display: inline-block;
+    width: 12vw;
+    margin-top: 3%;
+}
+
+
+
+.para1 {
+    font-size: 0.9rem;
+    font-family: "Fjalla One", "Roboto Serif", sans-serif, 'Times New Roman', Times, serif;
+    /* margin: 2%; */
+    padding-right: 4%;
+    border-right: 1px solid black;
+}
+
+.para2 {
+    font-size: 0.9rem;
+    font-family: "Fjalla One", "Roboto Serif", sans-serif, 'Times New Roman', Times, serif;
+    /* margin: 2%; */
+    color: #02BB9B;
+}
+
+.para3 {
+    color: black;
+    font-size: 1.3rem;
+    font-family: "Fjalla One", "Roboto Serif", sans-serif, 'Times New Roman', Times, serif;
+}
+
+.para3:hover {
+    text-decoration: underline;
+    text-decoration-color: #02BB9B;
+    font-size: 1.3rem;
+}
+
+.para4 {
+    /* text-align: justify; */
+    display:block;
+    width:100%;
+    margin-right: 1%;
+    margin-top: 2%;
+    font-size:1rem;
+    font-family: "Roboto Serif", sans-serif, 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+
+/* Flex Content Div  */
+.flex-content {
+    width: 23vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    max-width: 95%;
+}
+
+.flex-content>a>img {
+    width: 100%;
+    padding: 2%;
+    margin: 2%;
+}
+
+#gap-div {
+    height: 2vh;
+    width: 23vw;
+    background-color: #F4F5F7;
+    /* border-bottom: 1px solid rgb(157, 157, 157) ; */
+}
+
+/* Main Center Image  */
+.main-ui-img {
+    width: 38vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #F4F5F7;
+    height: fit-content;
+    padding-bottom: 1%;
+    margin-top: 2%;
+}
+
+.ui-image {
+    width: 100%;
+    height: 80%;
+}
+
+/* Image Bottom Heading  */
+.image-headers{
+    font-size: 1.7rem;
+    font-family: "Roboto Serif", sans-serif, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    padding: 0.5%;
+}
+
+.image-headers:hover{
+    text-decoration: underline;
+    text-decoration-color:#02BB9B;
+}
+
+/* Main Section 2 Aside Div 2 */
+/* Aside UI Section2  */
+.aside-ui-sec-2 {
+    margin-top: 4%;
+    padding-bottom: 1%;
+    padding-right: 2px;
+    width: 20vw;
+    height: fit-content;
+    border: 2px solid #D7752B;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.popular-button {
+    text-indent: 0%;
+    padding: 4%;
+    background-color: #E2EEE2;
+    text-align: center;
+    font-family: "Fjalla One", 'Gill Sans', sans-serif, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}
+
+.aside-list {
+    height: 100%;
+    width: 100%;
+}
+
+.aside-li {
+    margin-top: 4%;
+    margin-left: 1%;
+    text-align: left;
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 8%;
+    border-bottom: 1px solid rgb(157, 157, 157);
+}
+
+.list-anchor {
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto Serif", sans-serif, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    /* text-align: center; */
+    font-size: 1.3rem;
+}
+
+.list-anchor:hover {
+    text-decoration: underline;
+    text-decoration-color: #02BB9B;
+    font-weight: 800;
+}
+
+.count-li {
+    font-size: 1.2rem;
+    background-color: #E2EEE2;
+    border-radius: 50%;
+    padding-right: 2%;
+    padding-left: 2%;
+    /* margin-bottom: 2%; */
+}
+
+
